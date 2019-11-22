@@ -1,0 +1,20 @@
+2.4.4/5
+Ik denk dat het O(n^2+m^2) is
+
+2.6.1
+Een array, linked list, heap data structure of een binary search tree kunnen worden gebruikt voor een priority queue
+
+2.6.2
+Ik kies voor een array, omdat ik wil weten hoe efficiënt het is.
+
+2.6.3
+-
+
+2.6.5
+Queue: O(1)
+Dequeue: O(n)
+Contains: O(n)
+Remove: O(N+M)
+
+2.6.6
+-
