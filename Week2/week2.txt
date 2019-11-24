@@ -1,5 +1,8 @@
-2.4.4/5
-Ik denk dat het O(n^2+m^2) is
+2.4.5/7
+Bijde functies kwamen dichtbij de getallen die ik in gedachte had.
+De min functie had ik ergens rond de 50
+De median had ik ergens rond de 30
+
 
 2.6.1
 Een array, linked list, heap data structure of een binary search tree kunnen worden gebruikt voor een priority queue
