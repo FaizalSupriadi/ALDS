@@ -1,5 +1,17 @@
 class myStack:
-	
+	"""
+	Parameters
+	----------
+	val: int
+		val is an int
+		
+	Returns
+	-------
+	tmp : int
+		return the popped value
+	self.stack[len(self.stack)-1] : int
+		return the value last in the array
+	"""
 	def __init__(self):
 		self.stack = []
 		
@@ -20,6 +32,17 @@ class myStack:
 		return 0
 	
 def valid_bracket(val):
+	"""
+	Parameters
+	----------
+	val: string
+		val is a string with given brackets
+		
+	Returns
+	-------
+	stack.isEmpty() : function
+		this will return whether the stack is empty or not via a bool
+	"""
 	stack = myStack()
 	for i in range(0, len(val)):
 		if val[i] == '[' or val[i] == '(' or val[i] == '<':

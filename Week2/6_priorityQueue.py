@@ -1,4 +1,18 @@
 class priorityQueue:
+	"""
+	Parameters
+	----------
+	data: int
+		data is an int
+	priority : int
+		priority is an int
+	Returns
+	-------
+	maximum[0]:int
+		return data with highest priority
+	
+	"""
+
 	def __init__(self):
 		self.queue = []
 	

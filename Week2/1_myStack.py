@@ -1,5 +1,17 @@
 class myStack:
-	
+	"""
+	Parameters
+	----------
+	val: int
+		val is an int
+		
+	Returns
+	-------
+	tmp : int
+		return the popped value
+	self.stack[len(self.stack)-1] : int
+		return the value last in the array
+	"""
 	def __init__(self):
 		self.stack = []
 		

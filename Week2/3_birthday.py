@@ -1,6 +1,16 @@
 import random
 
 def birthday(val):
+	"""
+	Parameters
+	----------
+	val: int
+		val is the amount of students
+	Returns
+	-------
+	same/100 : float
+		return the amount of how many times people had the same birthday
+	"""
 	days =[]
 	same=0
 	for i in range(0,100):

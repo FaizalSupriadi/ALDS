@@ -1,10 +1,35 @@
 import random
 def median(array):
-	length = len(array)
-	return array[int(length/2)]
+	"""
+	Parameters
+	----------
+	array : list
+		has the list that needs the median figured out
+	
+	-------
+	array[int( len(array)/2)] : int
+		return the median
+	"""
+	return array[int( len(array)/2)]
 		
 
 def partition(a, lo, hi):
+	"""
+	Parameters
+	----------
+	a: list
+		list with values
+	lo:int
+		lo has the lowest indnex of the list
+	hi:int
+		hi has the highest index of the list
+	Returns
+	-------
+	i : int
+		return i, i has the next index to use for hi
+	count : int
+		count has counted how many times values are compared
+	"""
 
 	pivot = median(a[lo:hi+1])
 	
@@ -23,6 +48,22 @@ def partition(a, lo, hi):
 	return i, count
 
 def quickSort(a, lo, hi):
+	"""
+	Parameters
+	----------
+	a: list
+		list with values
+	lo:int
+		lo has the lowest indnex of the list
+	hi:int
+		hi has the highest index of the list
+	Returns
+	-------
+	a : list
+		return the list
+	count : int
+		count has counted how many times values are compared
+	"""
 	count = [[],[],[]]
 	if lo >= hi:		
 		return a, 1

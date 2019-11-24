@@ -1,5 +1,21 @@
 import random
 def partition(a, lo, hi):
+	"""
+	Parameters
+	----------
+	a: list
+		list with values
+	lo:int
+		lo has the lowest indnex of the list
+	hi:int
+		hi has the highest index of the list
+	Returns
+	-------
+	i : int
+		return i, i has the next index to use for hi
+	count : int
+		count has counted how many times values are compared
+	"""
 	pivot = a[hi]
 	i=lo
 	count = 0
@@ -13,6 +29,22 @@ def partition(a, lo, hi):
 	return i, count
 
 def quickSort(a, lo, hi):
+	"""
+	Parameters
+	----------
+	a: list
+		list with values
+	lo:int
+		lo has the lowest indnex of the list
+	hi:int
+		hi has the highest index of the list
+	Returns
+	-------
+	a : list
+		return the list
+	count : int
+		count has counted how many times values are compared
+	"""
 	count = [[],[],[]]
 	if lo >= hi:		
 		return a, 1

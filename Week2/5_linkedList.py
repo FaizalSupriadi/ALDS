@@ -1,5 +1,18 @@
 
 class linkedList:
+
+	"""
+	Parameters
+	----------
+	data:int
+		data is an int if filled or None if linkedList is called without one
+	value:int
+		value is an int that is added to the list
+	Returns
+	-------
+	self.value : int
+		return the current value in the list
+	"""
 	def __init__(self, data=None):
 		self.value  = data
 		self.tail = None
